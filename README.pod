@@ -21,6 +21,10 @@ L<Kavorka> lets you define methods with introspectable signatures.
 Using that extra knowledge can make your controller methods clearer and friendlier.
 L<Mojolicious::Plugin::Kavorka> sits in your dispatch layer and if a target controller method (action) was declared with L<Kavorka> it will extract stash variables of the same name and pass them to the method.
 
+This plugin is a very rough release, I'm not sure what functionality should be added nor what semantics it should have.
+Consider it very experimental.
+That said, this is a rich testbed for future functionality; if you have ideas or suggestions, please let me know!
+
 =head1 SEE ALSO
 
 =over
