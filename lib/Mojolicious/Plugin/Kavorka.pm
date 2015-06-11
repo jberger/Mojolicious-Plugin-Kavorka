@@ -2,6 +2,9 @@ package Mojolicious::Plugin::Kavorka;
 
 use Mojo::Base 'Mojolicious::Plugin';
 
+our $VERSION = '0.01';
+$VERSION = eval $VERSION;
+
 use Kavorka;
 
 method register ($app, $config) {
